@@ -1,0 +1,1733 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/bridge.jpg);
+    background-repeat: no-repeat;
+    background-color: #e9e6e6;
+}
+.navbar-custom{
+    background-color: transparent !important;
+    padding: 20px 0px;
+}
+.nav-link{
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+.btn-signin{
+    width: 96px;
+    margin: 0 24px 0 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 0;
+}
+.lang-select{
+    border: none;
+    color: #000;
+    font-weight: 600;
+    background-color: transparent;
+}
+.register{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.next{
+    margin-left: 36px;
+}
+.focus{
+    text-decoration: underline;
+    font-weight: 800;
+}
+.guest-details, .room-info{
+    background: #fff;
+    border-radius: 8px;
+    padding: 8px;
+}
+.room-info{
+    margin-top: 10px;
+}
+.guest-details h1, .room-info h1{
+    font-size: 20px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.guest-details p{
+    font-size: 12px;
+    margin: 0;
+}
+.guest-details .star-txt{
+    color: red;
+}
+.guest-details .required-txt{
+    color: #787676;
+}
+.label-title{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+.note{
+    font-size: 12px;
+    color: #787676;
+}
+.booking-form{
+    margin-top: 28px;
+}
+.explore-now{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.flight-icon{
+    margin-right: 10px;
+}
+.room-info .facility{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.room-info .facility li{
+    font-size: 12px;
+    padding: 4px 6px;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 16px;
+    background: #eee9e9;
+    font-weight: 600;
+    margin: 8px 0px;
+}
+.include-txt{
+    font-size: 16px;
+    font-weight: 600;
+}
+.wrapper{
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 10px;
+    padding: 0 0 10px 0;
+}
+.wrapper img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.wrapper .carousel button{
+    height: 44px;
+    width: 44px;
+    background: #fff !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 44%;
+    transition: 0.5s;
+}
+.wrapper .owl-prev{
+    left: 4px;
+}
+.wrapper .owl-next{
+    right: 4px;
+}
+.wrapper .owl-nav button span{
+    font-size: 32px;
+    font-weight: 600;
+}
+.wrapper .carousel button:hover{
+    background: rgb(7, 28, 143) !important;
+    color: #fff !important;
+}
+.neces-text{
+    font-size: 12px;
+    font-weight: 600;
+    color: green;
+    margin: 0 6px;
+}
+.more-desc{
+    padding: 8px 12px;
+    background: #f3f0f0;
+    border-radius: 4px;
+}
+.breakfast{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 6px;
+}
+.room-info .titl{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.room-info .neces-info{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.top-tab{
+    padding: 12px 14px 12px 12px;
+    font-weight: 600;
+    width: fit-content;
+    cursor: pointer;
+}
+.tabs{
+    display: flex;
+}
+.flight-tab{
+    border-top-left-radius: 10px;
+}
+.hotel-tab{
+    border-top-right-radius: 10px;
+}
+.tab-focus{
+    background-color: #fff;
+    color: #000;
+}
+.tab-not-focus{
+    background-color: #2c2d2d;
+    color: #fff
+}
+.hotel-content{
+    display: none;
+}
+.flight-text{
+    font-weight: 600;
+}
+.form-content{
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.selects{
+    display: flex;
+    padding: 20px 10px;
+    flex-direction: column;
+}
+.selects select{
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 15px;
+    padding-left: 0;
+}
+.box-container{
+    display: flex;
+    margin: 0 10px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.box{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+.text{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+.margin-10{
+    margin: 0 10px;
+}
+.dates{
+    display: flex;
+    flex-direction: column;
+}
+.main-title{
+    font-size: 18px;
+}
+.calendar{
+    margin-left: 8px;
+    font-size: 18px;
+}
+.btn-swap{
+    background: #fff;
+    border-radius: 50%;
+    padding: 8px 12px;
+    border: 1px solid;
+    transform: rotate(90deg);
+}
+.swap{
+    position: absolute;
+    left: 50%;
+    top: -32px;
+}
+.dest{
+    position: relative;
+}
+.arc{
+    background: #fff;
+    width: 4px;
+    height: 20px;
+    position: absolute;
+    top: -21px;
+}
+.arc1{
+    left: 49.7%;
+}
+.arc2{
+    left: 66%;
+    width: 10px;
+}
+.flight-search{
+    background: #000;
+    color: #fff;
+    position: absolute;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    bottom: -34px;
+    right: 7%;
+}
+.flight-search .arrow{
+    margin-left: 12px;
+}
+.hotel-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+.date-box{
+    padding: 0 4px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.date-box label{
+    font-weight: 600;
+}
+.labels{
+    display: flex;
+    justify-content:space-between;
+}
+.dash{
+    display: none;
+}
+.date-box input{
+    border: none;
+    width: 142px;
+}
+.date-box input:focus{
+    outline: none
+}
+.labels select{
+    border: none;
+}
+.other-detail{
+    margin: 8px 0px;
+    padding: 16px 12px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.other-detail label{
+    font-weight: 600;
+}
+.other-detail input{
+    margin-top: 4px;
+}
+.checkout{
+    margin: 0 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.details{
+    border: 1px solid;
+    padding: 0 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 8px;
+}
+.details span{
+    margin: 0 6px 0 2px;
+    font-weight: 600;
+}
+.search-hotel{
+    display: none;
+}
+.form-box{
+    background: #fff;
+    padding: 12px;
+}
+.form-box .fields{
+    margin-top: 12px;
+}
+.search-list{
+    width: 100%;
+}
+.detail-content{
+    display: none;
+    position: absolute;
+    box-shadow: 0 2px 16px rgb(0 0 0 / 15%);
+    background: #fff;
+    padding: 10px;
+    top: 50px;
+    left: 0;
+    border-radius: 4px;
+    z-index: 1;
+}
+.currency{
+    display: none;
+}
+.detail-content label{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+.detail-content input{
+    width: 50px;
+    margin: 8px 0;
+}
+.age-box{
+    display: block;
+    margin-left: 0px;
+    width: 166px;
+}
+.night-count{
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 4px;
+}
+.night-count label{
+    font-weight: 600;
+}
+.night-count select{
+    border: none;
+}
+.age{
+    display: none;
+    margin-right: 2px !important;
+}
+.child-age{
+    position: absolute;
+    margin: 0;
+    bottom: -10px;
+    font-size: 12px;
+    color: #a9a0a0;
+}
+.age::placeholder{
+    font-size: 12px;
+}
+.details:hover .detail-content{
+    display: block;
+}
+.total-flights{
+    text-align: center;
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.timing-aria{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin: 14px 0;
+}
+.flight-aria{
+    background: #fff;
+    margin-bottom: 10px;
+}
+.filter-aria{
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.filter-aria h1{
+    font-size: 18px;
+}
+.filter-aria h5{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
+.filter-by{
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #dee2e6
+}
+.filter-by div{
+    display: inline-block;
+    border: 1px solid #bbb8b8;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+.preference div{
+    padding: 8px 0px;
+    width: 49%;
+    text-align: center;
+}
+.stop div{
+    padding: 10px 0;
+    width: 32%;
+    text-align: center;
+}
+.filter-by div:hover{
+    background-color: #e9e9e9;
+}
+.dot{
+    width: 8px;
+    height: 8px;
+    background: grey;
+    border-radius: 50%;
+}
+.flight-detail:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.dep-time div{
+    padding: 8px 0px;
+    width: 49%;
+    text-align: center;
+}
+.min-value{
+    font-weight: 600;
+    margin-right: 6px;
+}
+.price-by{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+.price-by p{
+    margin: 0;
+}
+.r-icon{
+    font-size: 14px;
+}
+.line-box{
+    display: flex;
+    align-items: center;
+}
+.line{
+    width: 37px;
+    height: 2px;
+    background: lightgray;
+}
+.line-info{
+    width: 78px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    padding: 4px 10px;
+}
+.total-time{
+    text-align: center;
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flight-detail{
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.refundable{
+    font-size: 12px;
+    font-weight: 600;
+    color: #1aac41;
+}
+.luggage{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.luggage-1{
+    margin-right: 8px;
+}
+.company-name{
+    font-size: 14px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px;
+    flex-direction: column;
+}
+.flight-number{
+    font-size: 12px;
+    font-weight: 600;
+    color: #939393;
+}
+.time{
+    font-size: 18px;
+    font-weight: 600;
+}
+.date{
+    font-size: 11px;
+    font-weight: 600;
+    color: #b5b1b1;
+}
+.swap-2{
+    border: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.hotel-box{
+    margin: 0;
+}
+.airport-city{
+    border: none;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 600;
+    width: 100%;
+}
+.airport-city:focus{
+    outline: none;
+}
+.flight-date{
+    border: none;
+    width: 184px;
+    font-weight: 600;
+}
+.flight-date:focus{
+    outline: none;
+}
+.btn-book{
+    width: 100%;
+    border-radius: 0;
+}
+.price{
+    text-align: center;
+}
+.price-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+.none-stop{
+    font-size: 12px;
+    font-weight: 600;
+    color: #1aac41;
+}
+.detail-aria .tab-menu{
+    display: flex;
+    border-bottom: 1px solid #cdcdcd;
+}
+.detail-aria .tab-menu .icon{
+    font-size: 12px;
+    margin-right: 4px;
+}
+.detail-aria .tab-menu .txt{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+}
+.detail-aria .tab-menu .tab-box{
+    padding: 8px;
+    cursor: pointer;
+}
+.detail-aria .tab-menu .active{
+    border-bottom: 2px solid #1382e3;
+}
+.detail-aria .d-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.detail-aria .d-box div{
+    font-size: 10px;
+    margin: 0 4px;
+    font-weight: 600;
+}
+.detail-aria .f-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.detail-aria .f-box p{
+    margin: 0;
+}
+.detail-aria .f-box .p-detail p{
+    font-size: 10px;
+    color: #b9b6b6;
+    font-weight: 600;
+}
+.detail-aria .f-box .des-t{
+    text-align: right;
+}
+.detail-aria .f-box .t-detail{
+    text-align: center;
+}
+.detail-aria .f-box .t-detail p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #b9b6b6;
+}
+.detail-aria .f-box .r-box{
+    border: 1px solid #1aac41;
+    color: #1aac41;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 18px;
+    font-weight: 600;
+    display: none;
+}
+.b-detail{
+    padding: 8px;
+}
+.b-detail .b-top{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.b-detail .b-top p{
+    margin: 0;
+}
+.b-detail .b-top img{
+    margin-right: 10px;
+}
+.b-detail table{ 
+    margin: 0px;
+}
+.b-detail .some-txt{
+    color: #b9b6b6;
+    font-size: 12px;
+    color: #8f8c8c;
+    margin: 0;
+}
+.traveller-info .circle{
+    height: 24px;
+    width: 24px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+.traveller-info .flow-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.traveller-info .text-box{
+    font-weight: 600;
+}
+.traveller-info .text-box .payment{
+    margin: 4px 10px;
+}
+.traveller-info .fill{
+    background: #2c3e92;
+}
+.traveller-info .timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 4px 0;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.traveller-info .timer .icon{
+    margin-right: 8px;
+}
+.traveller-info .timer span{
+    font-weight: 600;
+}
+.traveller-info .f-detail{
+    padding: 24px 8px;
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+.traveller-info .f-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    padding: 8px;
+
+}
+.final-price{
+    font-weight: 600;
+    font-size: 20px;
+}
+.seat-left{
+    margin-top: -10px;
+}
+.seat-left span{
+    font-size: 12px;
+    color: red;
+    font-weight: 600;
+}
+.f-box-detail{
+    padding-bottom: 10px;
+    border-bottom: 1px dotted lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.traveller-info .f-detail .icon{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-box .arrow-icon{
+    margin: 0 10px;
+    color: grey;
+}
+.f-box .more-detail{
+    font-size: 10px;
+    color: grey
+}
+.traveller-info .f-detail .info{
+    color: #fff;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    background: grey;
+    font-weight: 600;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.traveller-info .f-detail .info:hover{
+    background: #424040;
+}
+.info-body{
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+.info-heading{
+    padding: 8px;
+    background: #e5e2e2;;
+}
+.info-heading h1{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+.fare-box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+.total-aria{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.total-aria p{
+    margin: 0;
+}
+.total-aria .g-txt{
+    font-size: 18px;
+    font-weight: 600;
+}
+.total-aria .ad-txt{
+    font-size: 12px;
+}
+.fare-content{
+    padding: 8px;
+}
+.fare-box p{
+    margin: 0;
+}
+.fare-aria{
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+.fare-box .txt{
+    font-size: 16px;
+    font-weight: 600;
+}
+.extra-txt{
+    font-size: 12px;
+    margin-bottom: 8px !important;
+}
+.info-body .tr-detail{
+    padding: 20px;
+}
+.info-body .input-fields{
+    display: flex;
+    flex-direction: column;
+}
+.info-body .input-fields .name{
+    margin: 10px 0;
+}
+.info-body .adult{
+    padding: 4px 8px;
+    margin: 6px 0;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: fit-content;
+    background: #fbe6e6;
+    border-radius: 4px;
+}
+.freq-flyer{
+    margin: 10px 0;
+}
+.freq-flyer .fr-text{
+    font-weight: 600;
+    cursor: pointer;
+}
+.freq-flyer span{
+    font-size: 12px;
+    color: #0000d9;
+}
+.freq-flyer .minus{
+    display: none;
+}
+.freq-flyer-aria{
+    margin: 10px 0px;
+    display: none;
+    flex-direction: column;
+}
+.freq-flyer-aria input{
+    margin-top: 10px;
+}
+.extra-aria{
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 4px;
+    background: #ebebeb;
+}
+.extra-aria .extra-txt{
+    font-size: 12px;
+}
+.extra-aria .extra{
+    font-size: 12px;
+    font-weight: 600;
+}
+.hotel-info{
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.hotel-detail-box{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.hotel-detail-box .h-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.hotel-detail-box .star-badge{
+    font-size: 14px;
+    padding: 0px 4px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    border-radius: 10px;
+    background: #ebebeb;
+    color: #ef0e0e;
+}
+.hotel-detail-box .addr{
+    font-size: 10px;
+    margin: 0 0 6px 0;
+}
+.hotel-detail-box .review span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.hotel-detail-box .review p{
+    font-size: 10px;
+    margin: 0;
+}
+.hotel-detail-box .review{
+    margin-bottom: 8px;
+}
+.hotel-detail-box .facility{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.hotel-detail-box .facility li{
+    display: inline-block;
+    padding: 2px 6px;
+    background: #dbd9d9;
+    border-radius: 12px;
+    font-weight: 600;
+}
+.hotel-detail-box .local-title{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+}
+.hotel-detail-box ul{
+    margin-bottom: 8px;
+}
+.hotel-detail-box ul li{
+    font-size: 12px;
+}
+.booking-box{
+    padding: 10px;
+    text-align: center;
+}
+.booking-box .b-price span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.booking-box .tax{
+    font-size: 12px;
+}
+.booking-box .some-other-info p{
+    font-size: 12px;
+    margin: 4px 0;
+    color: green;
+}
+.booking-box .book-now{
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    padding: 4px 32px;
+    background: #2222d3;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.image-container{
+    width: 100%;
+}
+.image-container img{
+    border-radius: 8px;
+}
+.hotel-form{
+    border-radius: 8px;
+}
+.review .r-value{
+    background: #ebebeb;
+    margin-right: 4px;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+.btn-add{
+    font-size: 14px;
+    padding: 9px;
+    border: none;
+    background: #c6c6ed;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 10px;
+}
+.modal-body .meal-label{
+    margin-bottom: 8px;
+}
+.modal-body .bag-label{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.contact-box{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.contact-box .code{
+    margin: 10px 0;
+}
+.contact-txt{
+    margin-top: 16px !important;
+}
+.btn-continue{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    margin: 12px 0 0 0;
+    font-weight: 600;
+    color: #0000d9;
+    background: #c6c6ed;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.btn-continue:hover{
+    background: #9e9ee7;
+}
+.continue-aria{
+    padding: 0px 8px;
+}
+.continue{
+    border: none;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 40px;
+    background: #0c0ca9;
+    color: #fff;
+    transition: 0.5s;
+}
+.continue:hover{
+    background: #151564;
+}
+.guest-detail span{
+    margin: 0;
+}
+.guest-detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 !important;
+    padding: 10px 4px;
+    font-size: 12px;
+}
+.guest-details .input-fields{
+    margin-bottom: 16px;
+}
+.f-name{
+    margin-top: 16px;
+}
+.total-hotel{
+    border-radius: 8px;
+}
+.filter-check{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.preference p{
+    display: flex;
+    align-items: center;
+}
+.dep-time ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.guest-rating{
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    color: blue;
+    margin: 0;
+}
+.dep-time ul li{
+    padding: 2px 16px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    border-radius: 20px;
+    color: #0202fd;
+    font-weight: 600;
+    cursor: pointer;
+}
+.price-range{
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+.cancellation{
+    margin: 0;
+    border: none;
+}
+.preference p span{
+    font-size: 14px;
+}
+.preference p:last-child{
+    margin: 0;
+}
+.det-content{
+    margin-top: 0px !important;
+    top: 40px !important;
+}
+.property{
+    padding: 8px;
+}
+.property .hotel-name{
+    font-weight: 600;
+}
+.property .hotel-address{
+    font-size: 12px;
+    font-weight: 600;
+}
+.check-detail{
+    margin: 0 8px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+.check-detail .title{
+    font-size: 14px;
+}
+.check-detail .value{
+    font-weight: 600;
+}
+.check-detail .nights{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0px 4px;
+    width: fit-content;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.delux{
+    margin: 8px;
+    padding: 0 0 8px 0;
+    border-bottom: 1px solid lightgray;
+    font-weight: 600;
+}
+.date-price{
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 8px;
+    align-items: center;
+}
+.grand-total-price{
+    font-size: 20px;
+    font-weight: 600;
+}
+.room-detail{
+    font-size: 12px;
+    font-weight: 600;
+}
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.total-price-info{
+    text-align: right;
+}
+.date-price .day{
+    font-size: 11px;
+}
+.date-price .room-price{
+    font-weight: 600;
+}
+.passengers{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    padding: 0 8px;
+    border-radius: 6px;
+    position: relative;
+    justify-content: space-between;
+}
+.passenger-details{
+    width: 100%;
+    left: 0;
+    top: 25px;
+}
+.passengers:hover .detail-content{
+    display: block;
+}
+.goto-payment-box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.marginTB{
+    margin: 6px 0;
+}
+.goto-payment{
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
+.got-payment-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.goto-payment span{
+    font-size: 18px;
+}
+.goto-payment .txt{
+    font-weight: 600;
+}
+.goto-payment p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.fields-in-contact{
+    width: 100%;
+}
+@media screen and (min-width: 281px){
+    .date-price .day{
+        font-size: 14px;
+    }
+    .arc2{
+        left: 64%;
+    }
+    .flight-search{
+        right: 12%;
+    }
+}
+@media screen and (min-width: 321px){
+    .det-content{
+        top: 43px !important;
+    }
+    .guest-detail{
+        font-size: 14px;
+        font-weight: 400 !important;
+    }
+    .f-box .arrow-icon{
+        margin: 0 1px;
+    }
+    .arc2{
+        left: 62%;
+    }
+    .flight-search{
+        right: 16%;
+    }
+    .night-count{
+        display: flex;
+    }
+    .line{
+        width: 60px;
+    }
+    .line-info{
+        width: 120px;
+    }
+    .detail-aria .tab-menu .txt{
+        font-size: 12px;
+    }
+    .detail-aria .d-box div{
+        font-size: 12px;
+    }
+    .detail-aria .f-box .p-detail p{
+        font-size: 12px;
+    }
+    .traveller-info .text-box .payment{
+        margin: 0 8px;
+    }
+}
+@media screen and (min-width: 361px){
+    .f-box .arrow-icon{
+        margin: 0 6px;
+    }
+    .arc1{
+        left: 49.8%;
+    }
+    .arc2{
+        left: 60%;
+    }
+    .flight-search{
+        right: 20%;
+    }
+    .currency{
+        display: inline-block;
+    }
+    .traveller-info .text-box .payment{
+        margin: 0 62px;
+    }
+}
+@media screen and (min-width: 376px){
+    .f-box .arrow-icon{
+        margin: 0 10px;
+    }
+    .detail-content{
+        top: 28px;
+    }
+    .luggage{
+        font-size: 11px;
+    }
+    .flight-detail{
+        padding-right: 8px;
+        border-right: 1px solid;
+    }
+    .line{
+        width: 86px;
+    }
+    .line-info{
+        width: 172px;
+    }
+    .contact-box{
+        flex-direction: row;
+    }
+    .contact-box .code{
+        width: 30%;
+        margin: 0 4px;
+    }
+}
+@media screen and (min-width: 414px){
+    .arc2{
+        left: 60%;
+    }
+}
+@media screen and (min-width: 520px){
+    .fields-in-contact{
+        width: auto;
+    }
+    .guest-details, .room-info{
+        padding: 8px 24px;
+    }
+    .image-container img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .traveller-info .f-detail .info{
+        display: block;
+    }
+    .arc2{
+        left: 58%;
+    }
+    .flight-search{
+        right: 7%;
+    }
+    .date-box{
+        display: flex;
+    }
+    .dates{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .line{
+        width: 112px;
+    }
+    .line-info{
+        width: 224px;
+    }
+    .detail-aria .f-box .r-box{
+        display: block;
+    }
+    .traveller-info .text-box .payment{
+        margin: 8px 48px;
+    }
+}
+@media screen and (min-width: 576px){
+    .preference p span{
+        font-size: 13px;
+    }
+    .dep-time ul li{
+        margin: 4px 0;
+    }
+    .price-by{
+        flex-direction: column;
+    }
+    .price-by input{
+        width: 100%;
+    }
+    .dep-time div{
+        width: 100%;
+        font-size: 9px;
+    }
+    .preference div{
+        width: 100%;
+        font-size: 9px;
+    }
+    .selects{
+        flex-direction: row;
+    }
+    .main-title{
+        font-size: 32px;
+    }
+    .arc2{
+        left: 55%;
+    }
+    .flight-search{
+        right: 7%;
+    }
+    .main-content{
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .line{
+        width: 68px;
+    }
+    .line-info{
+        width: 136px;
+    }
+    .price{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 12px;
+        border-left: 1px dotted;
+    }
+    .btn-book-box{
+        width: 100%;
+    }
+    .total-flights{
+        font-size: 14px
+    }
+    .stop div{
+        font-size: 9px;
+        width: 31%;
+    }
+    .traveller-info .text-box .payment{
+        margin: 8px 32px;
+    }
+    .timer{
+        font-size: 14px;
+    }
+    .passengers{
+        flex-direction: column;
+    }
+    .vert-line{
+        display: none;
+    }
+    .selects{
+        align-items: center;
+    }
+    .passenger-details{
+        width: 200px;
+        left: -84%;
+        top: 74px;
+    }
+}
+@media screen and (min-width: 992px){
+    .detail-content{
+        top: 32px;
+    }
+    .passengers{
+        width: 200px;
+    }
+    .wrapper{
+        margin-top: 0;
+    }
+    .booking-box{
+        text-align: right;
+    }
+    .det-content{
+        top: 39px !important;
+    }
+    .guest-detail{
+        font-size: 11px;
+        width: 206px;
+    }
+    .guest-info{
+        margin: 0;
+    }
+    .fare-content{
+        padding: 4px;
+    }
+    .hotel{
+        display: flex;
+        justify-content: space-between;
+    }
+    .night-count{
+        padding: 1px 2px;
+        height: 28px;
+    }
+    .flight-search{
+        right: 4%;
+    }
+    .arc {
+        width: 15px;
+        height: 18px;
+        position: absolute;
+        background: #fff;
+        top: 28px;
+        left: -16px;
+    }
+    .arc2{
+        top: -20px;
+        left: 54%;
+    }
+    .arc1 {
+        left: 49%;
+        top: -20px;
+    }
+    .btn-swap{
+        transform: rotate(0deg)
+    }
+    .main-title{
+        font-size: 16px;
+    }
+    .heading{
+        text-align: left;
+        margin-left: 10px;
+        width: 502px;
+        font-size: 42px;
+        line-height: 66px;
+    }
+    .explore-now{
+        margin-left: 10px;
+        text-align: left;
+    }
+    .dest{
+        margin-right: 15px;
+    }
+    .form-box{
+        display: flex;
+        align-items: end;
+    }
+    .form-box .fields{
+        margin-right: 6px;
+    }
+    .main-content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .line{
+        width: 80px;
+    }
+    .line-info{
+        width: 160px;
+    }
+    .btn-book{
+        width: 112px;
+    }
+    .stop div{
+        font-size: 12px;
+    }
+    .preference div{
+        font-size: 12px;
+    }
+    .dep-time div{
+        font-size: 12px;
+    }
+    .det-content{
+        margin-right: 0 !important;
+    }
+    .passengers{
+        flex-direction: row;
+    }
+    .vert-line{
+        display: inline;
+    }
+    .passenger-details{
+        width: 100%;
+        left: 0;
+        top: 26px;
+    }
+}
+@media screen and (min-width: 1025px){
+    .main-title {
+        font-size: 18px;
+    }       
+
+}
+@media screen and (min-width: 1200px){
+    .guest-detail{
+        font-size: 12px;
+        width: 232px;
+    }
+    .fare-content{
+        padding: 8px;
+    }
+    .btn-add{
+        margin-top: 0;
+    }
+    .freq-flyer-aria{
+        flex-direction: row;
+    }
+    .freq-flyer-aria input{
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .info-body .input-fields .name{
+        margin: 0 10px;
+    }
+    .info-body .input-fields{
+        flex-direction: row;
+    }
+    .traveller-info .f-detail{
+        padding: 24px 24px;
+    }
+    .main-title {
+        font-size: 22px;
+    }       
+    .detail-content{
+        top: 26px;
+    }
+    .hotel-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .arc2 {
+        top: 65px;
+        left: -5%;
+    }
+    .arc1 {
+        left: -5%;
+        top: 14px;
+    }
+    .swap{
+        position: absolute;
+        left: -30px;
+        top: 28px;
+    }
+    .box-container{
+        flex-direction: row;
+    }
+    .box{
+        margin-right: 15px;
+    }
+    .price-by{
+        flex-direction: row;
+    }
+    .price-by input{
+        width: 50%;
+    }
+    .detail-content{
+        top: 26px;
+    }
+    .passenger-details{
+        top: 26px;
+    }
+}
+@media screen and (min-width: 1281px){
+    .arc1{
+        left: -4%;
+    }
+    .arc2{
+        left: -4%;
+    }
+    .form-box{
+        justify-content: space-between;
+    }
+    .form-box .fields{
+        margin-right: 0;
+    }
+    .line{
+        width: 118px;
+    }
+    .line-info{
+        width: 236px;
+    }
+    .btn-book{
+        width: 152px;
+    }
+    .total-time{
+        margin: 0 18px;
+    }
+    .price{
+        padding-left: 22px;
+    }
+    .total-flights{
+        font-size: 16px;
+    }
+    .traveller-info .text-box .payment{
+        margin: 8px 120px;
+    }
+}
